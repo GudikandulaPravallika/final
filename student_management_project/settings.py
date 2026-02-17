@@ -90,23 +90,14 @@ DATABASES = {
         #'NAME': BASE_DIR / 'db.sqlite3',
          'ENGINE':'django.db.backends.mysql',
          'NAME':'student_management_system',
-         'USER':'root',
-         'PASSWORD':'8143712946',
-         'HOST':'localhost',
-         'PORT':'3306'
+         'USER':'usr',
+         'PASSWORD':'psswd',
+         'HOST':'host',
+         'PORT':'port'
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'mydb',
-#         'USER': 'root',
-#         'PASSWORD': '1234',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
